@@ -23,7 +23,7 @@ h3{
 h4{
     font-size: 2.8rem;
 }
-p{
+p,li{
     font-size: 1.8rem;
 }
 img{
@@ -46,6 +46,9 @@ img{
     gap: 5rem;
     text-align: initial;
 }
+.span-netz{
+    font-weight: 500;
+}
 .span-main{
     font-size: 3rem;
     font-weight: 500;
@@ -58,6 +61,17 @@ img{
     padding: 2rem;
     border-radius: 10%;
 }
+.ul-nosotros{
+    list-style-image: url(/img/list.png);
+    
+}
+.ul-nosotros img{
+    width: 14px;
+    height: 14px;
+}
+.li-nosotros{
+    margin-top: 2rem;
+}
 
 /*portafolio*/
 
@@ -68,10 +82,10 @@ img{
     list-style: none;
     margin: auto auto;
 }
-ul{
+.ul-galeria{
     padding: 0 0 0 0;
 }
-li{
+.li-galeria{
     background-color: #f0e1f4;
     width: 36.7rem;
     height: 27.4rem;
