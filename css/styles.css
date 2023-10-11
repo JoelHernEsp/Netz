@@ -3275,7 +3275,7 @@ h4{
   font-size: 2.8rem;
 }
 p{
-  font-size: 1.8rem;
+    font-size: 1.8rem;
 }
 img{
   max-width: 100%;
@@ -3297,6 +3297,9 @@ img{
   gap: 5rem;
   text-align: initial;
 }
+.span-netz{
+    font-weight: 500;
+}
 .span-main{
   font-size: 3rem;
   font-weight: 500;
@@ -3306,7 +3309,7 @@ img{
   text-transform: uppercase;
 }
 .img-nosotros{
-  padding: 2rem;
+    padding: 2rem;
 }
 
 /*portafolio*/
@@ -3319,13 +3322,13 @@ img{
   margin: auto auto;
 }
 ul{
-  padding: 0 0 0 0;
+    padding: 0 0 0 0;
 }
 li{
-  background-color: #f0e1f4;
-  width: 36.7rem;
-  height: 27.4rem;
-  border-radius: 2rem;
+    background-color: #f0e1f4;
+    width: 36.7rem;
+    height: 27.4rem;
+    border-radius: 2rem;
 }
 
 
