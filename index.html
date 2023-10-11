@@ -1,28 +1,107 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Consultora de marketing">
-        <title>Netz: Pagina principal</title>
-    
-        <!--PRELOAD-->
-        <link rel="preload" href="css/normalize.css" as="style">
-        <link rel="stylesheet" href="css/normalize.css">
-    
-        <link rel="preload" href="css/styles.css" as="style">
-        <link rel="stylesheet" href="css/styles.css">
-    
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;900&display=swap" rel="stylesheet">
-    
-        <!--Iconos-->
-        <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+<!doctype html>
+<html class="no-js" lang="en">
 
-    </head>
-<body>
+<head>    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Consultora de marketing">
+    <title>Netz: Pagina principal</title>
+
+    <!--PRELOAD-->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preload" href="css/styles.css" as="style">
+    <!--<link rel="stylesheet" href="css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;900&display=swap" rel="stylesheet">
+
+    <!--Iconos-->
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
     
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    <!--====== Magnific Popup CSS ======-->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+        
+    <!--====== Slick CSS ======-->
+    <link rel="stylesheet" href="css/slick.css">
+        
+    <!--====== Line Icons CSS ======-->
+    <link rel="stylesheet" href="css/LineIcons.css">
+        
+    <!--====== Bootstrap CSS ======-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!--====== Default CSS ======-->
+    <link rel="stylesheet" href="css/default.css">
+    
+    <!--====== Style CSS ======-->
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<!--Cabecera-->
+<body>
+    <section class="navbar-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg">
+                        <a style="max-width: 55%;">
+                            <img src="img/logo_netz.png" alt="Logo" style="justify-content: left; height: 30%; width: 30%; margin-left: 0%;">
+                        </a>
+                        <div id="navbarTwo" >
+                            <ul class="navbar-nav" >
+                                <li-a class="nav-item"><a style="color: black;">Sobre nosotros</a></li>
+                                <li-a class="nav-item"><a style="color: black;">Portafolio</a></li>
+                                <li-a class="nav-item"><a style="color: black;">Paquetes</a></li>
+                            </ul>
+                        </div>
+                        <div class="navbar-btn d-none d-sm-inline-block">
+                            <ul>
+                                <li-a><a class="solid" style="border-radius: 50px;">Contactanos</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div> 
+        </div> 
+    </section>
+
+    <section id="home" class="slider_area">
+        <div id="carouselThree" class="carousel slide" data-ride="carousel">
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="slider-content" >
+                                    <div class="row">
+                                        <h1 class="title" style="color: black; margin-right: 20px;">La mejor</h1>
+                                        <h1 class="title" style="color: red; margin-right: 20px;">Empresa de</h1>
+                                        <h1 class="title" style="color: black; ">Marqueting</h1>
+                                    </div>
+                                    <h3 style="color: black; margin-top: 10%;">La compañia #1 en servicios de MARKETING de méxico</h3>
+                                    <h4  style="margin-top: 5%; color: black;">Si busca la mejor empresa de SEO para su negocio, NETZ es la elección perfecta.</h4>
+
+                                </div>
+                            </div>
+                        </div> 
+                    </div> 
+                    <div class="slider-image-box d-none d-lg-flex align-items-end">
+                        <div class="slider-image" style="margin-left: 10%;">
+                            <img src="img/chico.png" alt="Hero" style="width: 90%;">
+                        </div> 
+                    </div> 
+                </div> 
+            </div>
+        </div>
+    </section>
+
     <!-- Main -->
     <main class="contenedor">
         <h2 class="nosotros-texto">Sobre nosotros</h2>
@@ -38,10 +117,10 @@
             <img class="img-nosotros" src="img/img1.jpg" alt="imagen-nosotros">
         </div>
     </div>
-</main>
+    </main>
 
-<!-- Portafolio -->
-<section class="portafolio contenedor">
+    <!-- Portafolio -->
+    <section class="portafolio contenedor">
         <h2>Nuestro portafolio</h2>
         <ul class="galeria-portafolio">
             <li></li>
@@ -51,37 +130,67 @@
             <li></li>
             <li></li>
         </ul>
-</section>
+    </section>
 
- <!--::::Pie de Pagina::::::-->
- <footer class="pie-pagina">
-    <div class="grupo-1">
-        <div class="box">
-            <figure>
-                <a href="#">
-                    <img src="img/logo.PNG" alt="Logo de NETZ">
-                </a>
-            </figure>
-        </div>
-        <div class="box">
-            <h2 style="color: #8b469a;">NETZ</h2>
-            <h3 style="color:#e3cbe7;">MARKETING GIGITAL</h3>
-            <p style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?</p>
-            <p style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?</p>
-        </div>
-        <div class="box">
-            <h2>SIGUENOS</h2>
-            <div class="red-social">
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-instagram"></a>
-                <a href="#" class="fa fa-twitter"></a>
-                <a href="#" class="fa fa-youtube"></a>
+    <!--::::Pie de Pagina::::::-->
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="img/logo.PNG" alt="Logo de NETZ">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2 style="color: #8b469a;">NETZ</h2>
+                <h3 style="color:#e3cbe7;">MARKETING GIGITAL</h3>
+                <p style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?</p>
+                <p style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?</p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="grupo-2">
-        <small>&copy; 2023 <b>NETZ</b> - Todos los Derechos Reservados.</small>
-    </div>
-</footer>
+        <div class="grupo-2">
+            <small>&copy; 2023 <b>NETZ</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+
+    <!--====== Jquery js ======-->
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+    
+    <!--====== Bootstrap js ======-->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+    <!--====== Slick js ======-->
+    <script src="js/slick.min.js"></script>
+    
+    <!--====== Magnific Popup js ======-->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    
+    <!--====== Ajax Contact js ======-->
+    <script src="js/ajax-contact.js"></script>
+    
+    <!--====== Isotope js ======-->
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    
+    <!--====== Scrolling Nav js ======-->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+    
+    <!--====== Main js ======-->
+    <script src="js/main.js"></script>
+    
 </body>
+
 </html>
