@@ -1,27 +1,82 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-
 html{
     box-sizing: border-box;
     font-size: 62.5%;
+}
+body{
+    font-family: 'Inter', sans-serif;
 }
 *,*{
     box-sizing: inherit;
 }
 h1{
-    font-size: 4.8rem;
+    font-size: 6.5rem;
+    font-weight: bold;
 }
 h2{
-    font-size: 4rem;
+    font-size: 4.5rem;
+    font-weight: bold;
 }
 h3{
     font-size: 3.2rem;
+    font-weight: 500;
 }
 h4{
     font-size: 2.8rem;
 }
+p{
+    font-size: 1.8rem;
+}
 img{
     max-width: 100%;
 }
+
+
+
+/* estilos Sobre nosotros*/
+
+.contenedor{
+    max-width: 120rem;
+    text-align: center;
+    padding: 2rem;
+    margin: auto auto;
+}
+.contenido-main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5rem;
+    text-align: initial;
+}
+.span-main{
+    font-size: 3rem;
+    font-weight: 500;
+    color: #9747ff;
+}
+.nosotros-texto{
+    text-transform: uppercase;
+}
+.img-nosotros{
+    padding: 2rem;
+}
+
+/*portafolio*/
+
+.galeria-portafolio{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    list-style: none;
+    margin: auto auto;
+}
+ul{
+    padding: 0 0 0 0;
+}
+li{
+    background-color: #f0e1f4;
+    width: 36.7rem;
+    height: 27.4rem;
+    border-radius: 2rem;
+}
+
 
 /*:::::Pie de Pagina*/
 .pie-pagina{
