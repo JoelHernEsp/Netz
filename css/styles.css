@@ -3317,18 +3317,31 @@ img{
 .galeria-portafolio{
   display: grid;
   grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2,1fr);
   gap: 2rem;
-  list-style: none;
   margin: auto auto;
+  align-items: center;
 }
-ul{
-    padding: 0 0 0 0;
+.galeria-contenido{
+  background-color: #eddbf0;
+  padding: 1rem;
+  border-radius: 2rem;
+  justify-content: center;
 }
-li{
-    background-color: #f0e1f4;
-    width: 36.7rem;
-    height: 27.4rem;
-    border-radius: 2rem;
+.galeria-contenido img{
+  border-radius: 4%;
+}
+.mid-up{
+  grid-area: 1 / 2 / 2 / 3;
+}
+.mid-down{
+  grid-area: 2 / 2 / 3 / 3;
+}
+.left{
+  grid-area: 1 / 1 / 3 / 2;
+}
+.rigth{
+  grid-area: 1 / 3 / 3 / 4;
 }
 
 
